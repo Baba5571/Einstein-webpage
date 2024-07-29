@@ -1,0 +1,148 @@
+/* Name: Blessing Abayomi, Student ID: 8945571 */
+
+/* Root element */
+html {
+    font: 20px/1.5 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Body */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 0.1rem solid #ccc;
+    background-color: #fff;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #4CAF50, #81C784);
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+/* Main and Aside */
+main, aside {
+    float: left;
+    width: 70%;
+    padding: 1rem;
+}
+
+aside {
+    width: 30%;
+    padding: 1rem;
+}
+
+footer {
+    clear: both;
+    background: linear-gradient(to right, #f0f0f0, #d3d3d3);
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+/* Section in Main */
+#biography {
+    clear: both;
+}
+
+#biography h2 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: #333;
+    text-align: center;
+}
+
+#biography q {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: #666;
+    border: 0.1rem solid #999;
+    padding: 0.5rem;
+    box-shadow: 0.1rem 0.1rem 0.3rem #aaa;
+}
+
+figure {
+    border: 0.1rem solid #ccc;
+    background-color: #eee;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+figure img {
+    border-radius: 0.5rem;
+}
+
+figure figcaption {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+video {
+    border: 0.1rem solid #999;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+/* Aside Section */
+#related-links h2, #contact-form h2 {
+    font-variant: small-caps;
+    color: #333;
+    text-align: center;
+}
+
+#related-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#related-links a {
+    color: #000;
+    text-decoration: none;
+    line-height: 1.5rem;
+}
+
+#related-links a:hover {
+    color: #4CAF50;
+}
+
+#contact-form .form-label {
+    font-variant: small-caps;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#contact-form .form-control {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+    main, aside {
+        float: none;
+        width: 100%;
+    }
+    body {
+        padding: 0.5rem;
+    }
+}
